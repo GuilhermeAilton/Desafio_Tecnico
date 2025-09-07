@@ -13,7 +13,7 @@ E aí! Bem-vindo ao meu projeto. Aqui eu resolvi um desafio técnico de backend 
 
 **O que era pra fazer?** Imaginar como seria um banco de dados pra guardar o histórico de "Benchmarks" e "Controles" de várias contas, e pensar em como deixar as buscas bem rápidas.
 
-**O que eu fiz?** Desenhei um esquema de como as tabelas se conversam (o tal do MER) e sugeri uns "atalhos" (índices) pra garantir que as consultas voem, mesmo com um monte de dados.
+**O que eu fiz?** Desenhei um esquema de como as tabelas se conversam ( MER) e sugeri uns "atalhos" (índices) pra garantir que as consultas voem, mesmo com um monte de dados.
 
 > Pra ver os detalhes, com o diagrama e a explicação de cada índice, dá uma olhada no **README dentro da pasta `/questao1`**.
 

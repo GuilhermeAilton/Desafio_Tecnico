@@ -19,7 +19,7 @@ Eu organizei o projeto em camadas para separar as responsabilidades, como aprend
 
 -   **`Controllers`**: A porta de entrada da API. Eles recebem as requisições HTTP, pegam os dados (como parâmetros da URL) e chamam os serviços. No final, eles enviam a resposta (JSON ou um erro) de volta para quem chamou.
 -   **`Services`**: O cérebro da aplicação. Aqui fica a lógica de negócio. Por exemplo, o serviço de "listar usuários" é quem aplica os filtros e a paginação. Ele pede os dados brutos para o repositório e trabalha em cima deles.
--   **`Repositories`**: A camada de acesso aos dados. A única responsabilidade dela é buscar ou salvar informações. No nosso caso, ela lê os dados do arquivo `mock-users.json`. Se um dia a gente quisesse mudar para um banco de dados de verdade (como PostgreSQL ou MongoDB), só precisaríamos mexer aqui!
+-   **`Repositories`**: A camada de acesso aos dados. A única responsabilidade dela é buscar ou salvar informações. No nosso caso, ela lê os dados do arquivo `mock-users.json`. 
 
 ## 🚀 Como Rodar o Projeto
 

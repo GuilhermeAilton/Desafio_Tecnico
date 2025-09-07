@@ -29,6 +29,5 @@ E aí! Bem-vindo ao meu projeto. Aqui eu resolvi um desafio técnico de backend 
 -   Lista os usuários e divide em páginas.
 -   Permite filtrar por nome, email, cargo (`role`) e se o usuário está ativo.
 -   Dá pra ordenar a lista por nome ou email.
--   Tem um padrão bonitinho pras respostas e trata os erros que podem acontecer.
 
 > Pra ver como usar a API, com exemplos e o passo a passo pra rodar na sua máquina, dá uma olhada no **README dentro da pasta `/questao2`**.
